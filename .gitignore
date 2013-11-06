@@ -1,0 +1,13 @@
+tmp
+bin
+build
+*.zip
+/libtesseract_all.a
+/liblept.a
+/Tesseract.h
+/Tesseract.mm
+/leptonica
+/tesseract
+/.settings
+/.DS_Store
+/.project

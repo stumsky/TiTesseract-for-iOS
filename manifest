@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.1.0
+apiversion: 2
+description: My module
+author: stumsky
+license: stumsky
+copyright: Copyright (c) 2013 by Your Company
+
+
+# these should not be edited
+name: TiTesseract
+moduleid: net.appios.titesseract
+guid: 57ce4b28-5733-4c02-be07-11dfc7f1ef1f
+platform: iphone
+minsdk: 3.1.2.GA
