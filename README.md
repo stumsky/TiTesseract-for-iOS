@@ -25,9 +25,20 @@ Edit Tesseract.h
  ```
  - Download [tesseract-ios-lib](https://github.com/ldiqual/tesseract-ios-lib) and put it somewhere in your project.
  - Download [tessdata](https://code.google.com/p/tesseract-ocr/downloads/list) and put `tessdata` somewhere in your project.
+ - Directory or file the following should have been added.
+.
+├── example
+│   └── tessdata
+├── Tesseract.h
+├── Tesseract.mm
+├── leptonica
+├── liblept.a
+├── libtesseract_all.a
+└── tesseract
  - Run `build.py` which creates your distribution
  - Copy net.appios.titesseract-iphone-X.X.X.zip into your app project of root directory
  - Build the project
+
 
 
 Usage
@@ -40,6 +51,14 @@ var whitelist = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 var lang = 'eng';
 var recognizedText = TiTesseract.recognizedText(ocrImage.toBlob(), lang, whitelist);
  ```
+
+
+Apps that uses TiTesseract for iOS
+-----------------------------------
+
+[Readeem](https://itunes.apple.com/jp/app/readeem/id609384415)
+
+[Contact me](http://twitter.com/stumsky) if you want your app listed here. Thanks 
 
 
 License
